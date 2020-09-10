@@ -3,11 +3,12 @@
 In this project, a pipeline used to analyze tweets is presented and described. The two topics analyzed relate to the COVID-19 pandemic and Black Lives Matter protests. Text mining and graph mining approaches were employed to identify and visualize what Twitter users are writing about present trending topics.
 
 ## Requirements:
-The whole solution can be run without having to manually set up the required environment using Docker and Docker Compose.
-Otherwise, the required software (Java, Git, Python 3, etc...), Python packages (tweepy, pyspark, stanford_openie, graphframes, etc...) and paths will have to be set up manually. In this latter case follow the instructions found in the `Dockerfile`.
-
 * docker
 * docker-compose
+
+The whole solution can be run without having to manually set up the required environment using Docker and Docker Compose.
+
+Otherwise, the required software (Java, Git, Python 3, etc...), Python packages (tweepy, pyspark, stanford_openie, graphframes, etc...) and paths will have to be set up manually. In this latter case follow the instructions found in the `Dockerfile`.
 
 ## Usage:
 1. To set up the environment including zookeeper, kafka, mongoDB, spark and graphx run `docker-compose up`
